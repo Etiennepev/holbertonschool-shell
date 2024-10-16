@@ -1,2 +1,2 @@
 #!/bin/bash
-cat listtest | uniq -u
+sort listtest | uniq 
