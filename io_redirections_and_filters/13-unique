@@ -1,2 +1,2 @@
 #!/bin/bash
-sort listtest | uniq -u
+cat listtest | sort --ignore-case | uniq -u
